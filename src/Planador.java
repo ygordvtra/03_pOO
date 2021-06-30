@@ -23,7 +23,7 @@ public class Planador extends Aeronave {
 
     @Override
     public boolean ativarVoo() {
-        if (getPesokg() > 512) {
+        if (getPeso() > 512) {
             return false;
         } else return true;
     }

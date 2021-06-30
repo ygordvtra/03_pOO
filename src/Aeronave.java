@@ -39,11 +39,11 @@ public abstract class Aeronave implements Serializable {
         this.capacidade = capacidade;
     }
 
-    public double getPesokg() {
+    public double getPeso() {
         return peso;
     }
 
-    public void setPesokg(double pesokg) {
+    public void setPeso(double peso) {
         this.peso = peso;
     }
 
