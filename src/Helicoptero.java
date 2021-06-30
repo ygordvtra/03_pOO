@@ -17,4 +17,8 @@ public class Helicoptero extends Aeronave{
         retorno += "Quantidade de Hélices: " + this.qtdHelices + "\n";
         return retorno;
     }
+    @Override
+    public boolean ativarVoo(){
+        return true;
+    }
 }

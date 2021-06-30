@@ -20,4 +20,39 @@ public abstract class Aeronave implements Serializable {
         retorno += "Peso: " + this.peso + " Kg\n";
         return retorno;
     }
+    public abstract boolean ativarVoo();
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public int getCapacidade() {
+        return capacidade;
+    }
+
+    public void setCapacidadepassageiros(int capacidade) {
+        this.capacidade = capacidade;
+    }
+
+    public double getPesokg() {
+        return peso;
+    }
+
+    public void setPesokg(double pesokg) {
+        this.peso = peso;
+    }
+
+    public double getVelocidademax() {
+        return velocidademax;
+    }
+
+    public void setVelocidademax(double velocidademax) {
+        this.velocidademax = velocidademax;
+    }
+
+
 }

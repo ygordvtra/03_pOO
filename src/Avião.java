@@ -17,4 +17,8 @@ public class Avião extends Aeronave{
         retorno += "Quantidade de Turbinas: " + this.qtdTurbinas + "\n";
         return retorno;
     }
+    @Override
+    public boolean ativarVoo(){
+        return true;
+    }
 }
