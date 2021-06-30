@@ -211,7 +211,7 @@ public class TorreDeControle {
                     }
                     String dados = "";
                     for (int i=0; i < naves.size(); i++)	{
-                        dados += naves.get(i).toString() + "---------------\n";
+                        dados += naves.get(i).toString() + "---------------------\n";
                     }
                     JOptionPane.showMessageDialog(null,dados);
                     break;
