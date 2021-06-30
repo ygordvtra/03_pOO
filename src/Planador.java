@@ -18,14 +18,14 @@ public class Planador extends Aeronave {
     public String toString() {
         String retorno = super.toString();
         retorno += "Comprimento das Asas: " + this.comprimentoAsas + " metros\n";
-        retorno += "Ativar Voo? " + this.ativarVoo() + "\n";
+        retorno += "Status de decolagem: " + this.ativarVoo() + "\n";
         return retorno;
     }
 
     @Override
-    public boolean ativarVoo() {
+    public String ativarVoo() {
         if (getPeso() <= 512) {
-            return true;
-        } else return false;
+            return "Decolando";
+        } else return "Impossível levantar Voo, aeronave muito pesada!!!\nPESO LIMITE: 512kg";
     }
 }

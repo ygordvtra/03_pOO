@@ -20,7 +20,7 @@ public abstract class Aeronave implements Serializable {
         retorno += "Peso: " + this.peso + " Kg\n";
         return retorno;
     }
-    public abstract boolean ativarVoo();
+    public abstract String ativarVoo();
 
     public String getModelo() {
         return modelo;

@@ -15,11 +15,11 @@ public class Avião extends Aeronave{
     public String toString() {
         String retorno = super.toString();
         retorno += "Quantidade de Turbinas: " + this.qtdTurbinas + "\n";
-        retorno += "Ativar Voo? " + this.ativarVoo() + "\n";
+        retorno += "Status de decolagem: " + this.ativarVoo() + "\n";
         return retorno;
     }
     @Override
-    public boolean ativarVoo(){
-        return true;
+    public String  ativarVoo(){
+        return "Decolando";
     }
 }
