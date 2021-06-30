@@ -15,6 +15,7 @@ public class Helicoptero extends Aeronave{
     public String toString() {
         String retorno = super.toString();
         retorno += "Quantidade de Hélices: " + this.qtdHelices + "\n";
+        retorno += "Ativar Voo? " + this.ativarVoo() + "\n";
         return retorno;
     }
     @Override

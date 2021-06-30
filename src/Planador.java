@@ -18,6 +18,7 @@ public class Planador extends Aeronave {
     public String toString() {
         String retorno = super.toString();
         retorno += "Comprimento das Asas: " + this.comprimentoAsas + " metros\n";
+        retorno += "Ativar Voo? " + this.ativarVoo() + "\n";
         return retorno;
     }
 

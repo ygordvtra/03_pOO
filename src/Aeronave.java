@@ -18,7 +18,6 @@ public abstract class Aeronave implements Serializable {
         retorno += "Modelo: " + this.modelo + "\n";
         retorno += "Capacidade: " + this.capacidade + " pessoas\n";
         retorno += "Peso: " + this.peso + " Kg\n";
-        retorno += "Ativar Voo? " + this.ativarVoo() + "\n";
         return retorno;
     }
     public abstract boolean ativarVoo();
